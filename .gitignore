@@ -1,0 +1,37 @@
+# Java / Maven
+**/target/
+**/.mvn/
+mvnw
+mvnw.cmd
+*.class
+*.jar
+*.war
+
+# Node / Frontend
+**/node_modules/
+**/dist/
+**/build/
+.npm
+*.log
+
+# IDE & Editor files
+.idea/
+*.iml
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+.DS_Store
+Thumbs.db
+
+# Environment variables & secrets
+.env
+.env.local
+.env.*.local
+*.pem
+*.key
+
+# Docker
+.dockerignore

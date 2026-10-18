@@ -1,0 +1,105 @@
+/* ==========================================================================
+   BajriX Design System - B2B Construction Materials Marketplace
+   ========================================================================== */
+
+:root {
+  /* Brand & Neutrals */
+  --color-slate-950: #020617;
+  --color-slate-900: #0f172a;
+  --color-slate-800: #1e293b;
+  --color-slate-700: #334155;
+  --color-slate-600: #475569;
+  --color-slate-500: #64748b;
+  --color-slate-400: #94a3b8;
+  --color-slate-300: #cbd5e1;
+  --color-slate-200: #e2e8f0;
+  --color-slate-100: #f1f5f9;
+  --color-slate-50:  #f8fafc;
+  --color-white:     #ffffff;
+
+  /* Construction Industry Accents */
+  --color-brand-primary:   #ea580c; /* Construction Safety Orange */
+  --color-brand-hover:     #c2410c;
+  --color-brand-light:     #fff7ed;
+  --color-brand-border:    #fed7aa;
+
+  --color-steel:           #0284c7; /* Steel Blue */
+  --color-steel-light:     #f0f9ff;
+  --color-steel-border:    #bae6fd;
+
+  /* Semantic Feedback */
+  --color-success:         #059669; /* Emerald */
+  --color-success-bg:      #ecfdf5;
+  --color-success-border:  #a7f3d0;
+  --color-success-text:    #065f46;
+
+  --color-warning:         #d97706; /* Amber */
+  --color-warning-bg:      #fffbeb;
+  --color-warning-border:  #fde68a;
+  --color-warning-text:    #92400e;
+
+  --color-danger:          #dc2626; /* Crimson */
+  --color-danger-bg:       #fef2f2;
+  --color-danger-border:   #fecaca;
+  --color-danger-text:     #991b1b;
+
+  /* Typography */
+  --font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  --font-family-mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+
+  --font-size-xs:   0.75rem;   /* 12px */
+  --font-size-sm:   0.875rem;  /* 14px */
+  --font-size-base: 1rem;      /* 16px */
+  --font-size-lg:   1.125rem;  /* 18px */
+  --font-size-xl:   1.25rem;   /* 20px */
+  --font-size-2xl:  1.5rem;    /* 24px */
+  --font-size-3xl:  1.875rem;  /* 30px */
+  --font-size-4xl:  2.25rem;   /* 36px */
+
+  --font-weight-normal:   400;
+  --font-weight-medium:   500;
+  --font-weight-semibold: 600;
+  --font-weight-bold:     700;
+  --font-weight-extrabold: 800;
+
+  --line-height-tight:  1.2;
+  --line-height-normal: 1.5;
+  --line-height-loose:  1.75;
+
+  /* Spacing System */
+  --spacing-1:  0.25rem;  /* 4px */
+  --spacing-2:  0.5rem;   /* 8px */
+  --spacing-3:  0.75rem;  /* 12px */
+  --spacing-4:  1rem;     /* 16px */
+  --spacing-5:  1.25rem;  /* 20px */
+  --spacing-6:  1.5rem;   /* 24px */
+  --spacing-8:  2rem;     /* 32px */
+  --spacing-10: 2.5rem;   /* 40px */
+  --spacing-12: 3rem;     /* 48px */
+  --spacing-16: 4rem;     /* 64px */
+
+  /* Borders & Radii */
+  --radius-xs: 4px;
+  --radius-sm: 6px;
+  --radius-md: 8px;
+  --radius-lg: 12px;
+  --radius-xl: 16px;
+  --radius-pill: 9999px;
+
+  --border-width-1: 1px;
+  --border-width-2: 2px;
+
+  /* Elevation Shadows */
+  --shadow-xs: 0 1px 2px 0 rgba(15, 23, 42, 0.05);
+  --shadow-sm: 0 1px 3px 0 rgba(15, 23, 42, 0.08), 0 1px 2px -1px rgba(15, 23, 42, 0.05);
+  --shadow-md: 0 4px 6px -1px rgba(15, 23, 42, 0.08), 0 2px 4px -2px rgba(15, 23, 42, 0.05);
+  --shadow-lg: 0 10px 15px -3px rgba(15, 23, 42, 0.08), 0 4px 6px -4px rgba(15, 23, 42, 0.04);
+  --shadow-xl: 0 20px 25px -5px rgba(15, 23, 42, 0.1), 0 8px 10px -6px rgba(15, 23, 42, 0.04);
+
+  /* Transitions */
+  --transition-fast: 150ms cubic-bezier(0.4, 0, 0.2, 1);
+  --transition-normal: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+  /* Layout Containers */
+  --container-max-width: 1280px;
+}
