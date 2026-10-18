@@ -7,7 +7,6 @@ import {
   ArrowRight,
   ShieldCheck,
   Truck,
-  FileText,
   AlertCircle,
   Plus,
   Minus
@@ -22,7 +21,6 @@ export default function CartPage() {
     updateQuantity,
     removeFromCart,
     clearCart,
-    totalItems,
     subtotal,
     uniqueSellersCount,
     freight,

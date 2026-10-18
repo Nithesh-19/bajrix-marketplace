@@ -1,6 +1,6 @@
 // src/pages/MarketplaceHome.jsx
 import React, { useState, useEffect, useCallback } from 'react';
-import { Search, X, SlidersHorizontal, PackageSearch, ShieldCheck, TrendingDown, Truck } from 'lucide-react';
+import { Search, X, PackageSearch, ShieldCheck, TrendingDown, Truck } from 'lucide-react';
 import { fetchProducts, fetchCategories } from '../services/api';
 import ProductCard from '../components/ProductCard';
 import ProductSkeleton from '../components/ProductSkeleton';

@@ -4,8 +4,8 @@
 [![Spring Boot](https://img.shields.io/badge/Spring_Boot-3.3.4-brightgreen.svg)](https://spring.io/projects/spring-boot)
 [![PostgreSQL](https://img.shields.io/badge/PostgreSQL-17-blue.svg)](https://www.postgresql.org/)
 [![Flyway](https://img.shields.io/badge/Flyway-Migrations-red.svg)](https://flywaydb.org/)
-[![React](https://img.shields.io/badge/React-18_Vite-cyan.svg)](https://react.dev/)
-[![Tests](https://img.shields.io/badge/JUnit_5-24_Passed-success.svg)](https://junit.org/junit5/)
+[![React](https://img.shields.io/badge/React-19_Vite-cyan.svg)](https://react.dev/)
+[![Tests](https://img.shields.io/badge/JUnit_5-30_Passed-success.svg)](https://junit.org/junit5/)
 
 BajriX is a full-stack, multi-seller marketplace engineered for construction and home-building materials (cement, TMT steel rebars, kiln-burnt bricks, AAC blocks, manufactured sand, aggregates, CPVC plumbing, and industrial electrical supplies).
 
@@ -72,7 +72,7 @@ In traditional construction material supply chains, contractors face opaque pric
 
 ### Testing
 - **Framework**: JUnit 5, Mockito
-- **Coverage**: 24 automated unit and integration slice tests verifying all business rules, pagination, concurrency, and validation.
+- **Coverage**: 30 automated unit and integration slice tests verifying all business rules, pagination, concurrency, and validation.
 
 ---
 
@@ -434,19 +434,23 @@ mvn clean test
 
 ### Verified Test Results:
 ```text
+[INFO] Running com.bajrix.controller.AuthControllerTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0
 [INFO] Running com.bajrix.controller.ProductControllerTest
 [INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0
 [INFO] Running com.bajrix.controller.SellerListingControllerTest
 [INFO] Tests run: 6, Failures: 0, Errors: 0, Skipped: 0
 [INFO] Running com.bajrix.service.OfferServiceTest
 [INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0
+[INFO] Running com.bajrix.service.OrderServiceTest
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0
 [INFO] Running com.bajrix.service.ProductServiceTest
 [INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0
 [INFO] Running com.bajrix.service.SellerListingServiceTest
 [INFO] Tests run: 7, Failures: 0, Errors: 0, Skipped: 0
 [INFO] 
 [INFO] Results:
-[INFO] Tests run: 24, Failures: 0, Errors: 0, Skipped: 0
+[INFO] Tests run: 30, Failures: 0, Errors: 0, Skipped: 0
 [INFO] BUILD SUCCESS
 ```
 

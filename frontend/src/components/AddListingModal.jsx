@@ -32,7 +32,7 @@ export default function AddListingModal({ isOpen, onClose, sellerId, onListingCr
             setFormData((prev) => ({ ...prev, productId: String(data.content[0].id) }));
           }
         })
-        .catch((err) => {
+        .catch((_err) => {
           setGlobalError('Failed to load catalogue products');
         })
         .finally(() => {

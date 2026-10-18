@@ -5,11 +5,6 @@ import {
   CheckCircle2,
   Printer,
   ShoppingBag,
-  Building2,
-  MapPin,
-  Calendar,
-  CreditCard,
-  Truck,
   Loader2,
   AlertCircle
 } from 'lucide-react';
